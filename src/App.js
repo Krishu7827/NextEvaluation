@@ -1,25 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
+import AddBook from './components/Addbook';
+import MyBooks from './components/MyBooks';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Book Find</h1>
+      <AddBook />
+      <MyBooks />
     </div>
   );
 }
+
+
 
 export default App;

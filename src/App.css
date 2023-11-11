@@ -1,0 +1,84 @@
+/* styles.css */
+
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* PostData component styles */
+.post-data-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.post-data-container h2 {
+  margin-bottom: 10px;
+}
+
+.post-data-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-data-form label {
+  margin-bottom: 10px;
+}
+
+.post-data-form input,
+.post-data-form select {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.post-data-form button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* RetrieveData component styles */
+.retrieve-data-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.retrieve-data-container h2 {
+  margin-bottom: 10px;
+}
+
+.travel-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.travel-card p {
+  margin: 0;
+}
+
+.delete-button {
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
